@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.vn.test.EmployeeTest">
+        <methods>
+          <include name="Staff20"/>
+          <include name="Staff21"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="Staff26"/>
+          <include name="rediectInsertStaff"/>
+          <include name="Staff19"/>
+          <include name="Staff23"/>
+          <include name="Staff24"/>
+          <include name="Staff25"/>
+          <include name="Staff16"/>
+          <include name="Staff17"/>
+          <include name="beforeTest"/>
+          <include name="Staff22"/>
+        </methods>
+      </class> <!-- com.vn.test.EmployeeTest -->
+      <class name="com.vn.test.UserTest">
+        <methods>
+          <include name="User08"/>
+          <include name="beforeMethod"/>
+          <include name="User06"/>
+          <include name="rediectInsertUser"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.vn.test.UserTest -->
+      <class name="com.vn.test.AdminTest">
+        <methods>
+          <include name="rediectSummarize"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="rediectUser"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.vn.test.AdminTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

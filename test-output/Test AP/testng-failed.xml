@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test AP]">
+  <test thread-count="5" name="test Suit(failed)">
+    <groups>
+      <run>
+        <include name="groupTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.vn.test.EmployeeTest">
+        <methods>
+          <include name="Staff20"/>
+          <include name="Staff21"/>
+          <include name="rediectListStaff"/>
+          <include name="Staff15"/>
+          <include name="Staff26"/>
+          <include name="rediectInsertStaff"/>
+          <include name="Staff19"/>
+          <include name="Staff12"/>
+          <include name="Staff23"/>
+          <include name="Staff13"/>
+          <include name="Staff24"/>
+          <include name="Staff14"/>
+          <include name="Staff25"/>
+          <include name="Staff16"/>
+          <include name="Staff17"/>
+          <include name="Staff11"/>
+          <include name="Staff22"/>
+        </methods>
+      </class> <!-- com.vn.test.EmployeeTest -->
+      <class name="com.vn.test.UserTest">
+        <methods>
+          <include name="User08"/>
+          <include name="User09"/>
+          <include name="User04"/>
+          <include name="User05"/>
+          <include name="User06"/>
+          <include name="User07"/>
+          <include name="User01"/>
+          <include name="User02"/>
+          <include name="rediectInsertUser"/>
+          <include name="User03"/>
+          <include name="User10"/>
+        </methods>
+      </class> <!-- com.vn.test.UserTest -->
+    </classes>
+  </test> <!-- test Suit(failed) -->
+</suite> <!-- Failed suite [Test AP] -->

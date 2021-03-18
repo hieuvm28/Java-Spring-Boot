@@ -1,0 +1,1168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="16" ignored="0" total="37" passed="21">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="181283" started-at="2021-03-10T16:23:01 ICT" finished-at="2021-03-10T16:26:03 ICT">
+    <groups>
+      <group name="groupTest">
+        <method signature="AdminTest.rediectDepart()[pri:1, instance:com.vn.test.AdminTest@eb21112]" name="rediectDepart" class="com.vn.test.AdminTest"/>
+        <method signature="AdminTest.rediectRecord()[pri:1, instance:com.vn.test.AdminTest@eb21112]" name="rediectRecord" class="com.vn.test.AdminTest"/>
+        <method signature="AdminTest.rediectStaff()[pri:1, instance:com.vn.test.AdminTest@eb21112]" name="rediectStaff" class="com.vn.test.AdminTest"/>
+        <method signature="AdminTest.rediectSummarize()[pri:1, instance:com.vn.test.AdminTest@eb21112]" name="rediectSummarize" class="com.vn.test.AdminTest"/>
+        <method signature="AdminTest.rediectUser()[pri:1, instance:com.vn.test.AdminTest@eb21112]" name="rediectUser" class="com.vn.test.AdminTest"/>
+        <method signature="EmployeeTest.Staff11()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="Staff11" class="com.vn.test.EmployeeTest"/>
+        <method signature="EmployeeTest.Staff12()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="Staff12" class="com.vn.test.EmployeeTest"/>
+        <method signature="EmployeeTest.Staff13()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="Staff13" class="com.vn.test.EmployeeTest"/>
+        <method signature="EmployeeTest.Staff14()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="Staff14" class="com.vn.test.EmployeeTest"/>
+        <method signature="EmployeeTest.Staff15()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="Staff15" class="com.vn.test.EmployeeTest"/>
+        <method signature="EmployeeTest.Staff16()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="Staff16" class="com.vn.test.EmployeeTest"/>
+        <method signature="EmployeeTest.Staff17()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="Staff17" class="com.vn.test.EmployeeTest"/>
+        <method signature="EmployeeTest.Staff19()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="Staff19" class="com.vn.test.EmployeeTest"/>
+        <method signature="EmployeeTest.Staff20()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="Staff20" class="com.vn.test.EmployeeTest"/>
+        <method signature="EmployeeTest.Staff21()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="Staff21" class="com.vn.test.EmployeeTest"/>
+        <method signature="EmployeeTest.Staff22()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="Staff22" class="com.vn.test.EmployeeTest"/>
+        <method signature="EmployeeTest.Staff23()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="Staff23" class="com.vn.test.EmployeeTest"/>
+        <method signature="EmployeeTest.Staff24()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="Staff24" class="com.vn.test.EmployeeTest"/>
+        <method signature="EmployeeTest.Staff25()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="Staff25" class="com.vn.test.EmployeeTest"/>
+        <method signature="EmployeeTest.Staff26()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="Staff26" class="com.vn.test.EmployeeTest"/>
+        <method signature="EmployeeTest.rediectInsertStaff()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="rediectInsertStaff" class="com.vn.test.EmployeeTest"/>
+        <method signature="EmployeeTest.rediectListStaff()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="rediectListStaff" class="com.vn.test.EmployeeTest"/>
+        <method signature="LoginTest.emptyPassword()[pri:1, instance:com.vn.test.LoginTest@43a0cee9]" name="emptyPassword" class="com.vn.test.LoginTest"/>
+        <method signature="LoginTest.emptyUsername()[pri:1, instance:com.vn.test.LoginTest@43a0cee9]" name="emptyUsername" class="com.vn.test.LoginTest"/>
+        <method signature="LoginTest.rediectAdmin()[pri:1, instance:com.vn.test.LoginTest@43a0cee9]" name="rediectAdmin" class="com.vn.test.LoginTest"/>
+        <method signature="UserTest.User01()[pri:1, instance:com.vn.test.UserTest@1786f9d5]" name="User01" class="com.vn.test.UserTest"/>
+        <method signature="UserTest.User02()[pri:1, instance:com.vn.test.UserTest@1786f9d5]" name="User02" class="com.vn.test.UserTest"/>
+        <method signature="UserTest.User03()[pri:1, instance:com.vn.test.UserTest@1786f9d5]" name="User03" class="com.vn.test.UserTest"/>
+        <method signature="UserTest.User04()[pri:1, instance:com.vn.test.UserTest@1786f9d5]" name="User04" class="com.vn.test.UserTest"/>
+        <method signature="UserTest.User05()[pri:1, instance:com.vn.test.UserTest@1786f9d5]" name="User05" class="com.vn.test.UserTest"/>
+        <method signature="UserTest.User06()[pri:8, instance:com.vn.test.UserTest@1786f9d5]" name="User06" class="com.vn.test.UserTest"/>
+        <method signature="UserTest.User07()[pri:15, instance:com.vn.test.UserTest@1786f9d5]" name="User07" class="com.vn.test.UserTest"/>
+        <method signature="UserTest.User08()[pri:15, instance:com.vn.test.UserTest@1786f9d5]" name="User08" class="com.vn.test.UserTest"/>
+        <method signature="UserTest.User09()[pri:13, instance:com.vn.test.UserTest@1786f9d5]" name="User09" class="com.vn.test.UserTest"/>
+        <method signature="UserTest.User10()[pri:14, instance:com.vn.test.UserTest@1786f9d5]" name="User10" class="com.vn.test.UserTest"/>
+        <method signature="UserTest.rediectInsertUser()[pri:1, instance:com.vn.test.UserTest@1786f9d5]" name="rediectInsertUser" class="com.vn.test.UserTest"/>
+        <method signature="UserTest.rediectListtUser()[pri:1, instance:com.vn.test.UserTest@1786f9d5]" name="rediectListtUser" class="com.vn.test.UserTest"/>
+      </group> <!-- groupTest -->
+    </groups>
+    <test name="Test" duration-ms="181283" started-at="2021-03-10T16:23:01 ICT" finished-at="2021-03-10T16:26:03 ICT">
+      <class name="com.vn.test.AdminTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.vn.test.AdminTest@eb21112]" name="beforeTest" is-config="true" duration-ms="12177" started-at="2021-03-10T16:23:01 ICT" finished-at="2021-03-10T16:23:14 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.AdminTest@eb21112]" name="beforeMethod" is-config="true" duration-ms="175" started-at="2021-03-10T16:24:28 ICT" finished-at="2021-03-10T16:24:29 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="rediectDepart()[pri:1, instance:com.vn.test.AdminTest@eb21112]" name="rediectDepart" duration-ms="462" started-at="2021-03-10T16:24:29 ICT" description="Empty Username" finished-at="2021-03-10T16:24:29 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rediectDepart -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.AdminTest@eb21112]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-03-10T16:24:29 ICT" finished-at="2021-03-10T16:24:29 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.AdminTest@eb21112]" name="beforeMethod" is-config="true" duration-ms="150" started-at="2021-03-10T16:24:29 ICT" finished-at="2021-03-10T16:24:29 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="rediectRecord()[pri:1, instance:com.vn.test.AdminTest@eb21112]" name="rediectRecord" duration-ms="394" started-at="2021-03-10T16:24:29 ICT" description="Empty Username" finished-at="2021-03-10T16:24:30 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rediectRecord -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.AdminTest@eb21112]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-03-10T16:24:30 ICT" finished-at="2021-03-10T16:24:30 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.AdminTest@eb21112]" name="beforeMethod" is-config="true" duration-ms="152" started-at="2021-03-10T16:24:30 ICT" finished-at="2021-03-10T16:24:30 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="rediectStaff()[pri:1, instance:com.vn.test.AdminTest@eb21112]" name="rediectStaff" duration-ms="30689" started-at="2021-03-10T16:24:30 ICT" description="Empty Username" finished-at="2021-03-10T16:25:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rediectStaff -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.AdminTest@eb21112]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-03-10T16:25:00 ICT" finished-at="2021-03-10T16:25:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.AdminTest@eb21112]" name="beforeMethod" is-config="true" duration-ms="30749" started-at="2021-03-10T16:25:00 ICT" finished-at="2021-03-10T16:25:31 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="rediectSummarize()[pri:1, instance:com.vn.test.AdminTest@eb21112]" name="rediectSummarize" duration-ms="73" started-at="2021-03-10T16:25:31 ICT" description="Empty Username" finished-at="2021-03-10T16:25:31 ICT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Lỗi: Không nhập mã vẫn hợp lệ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Lỗi: Không nhập mã vẫn hợp lệ
+at org.testng.Assert.fail(Assert.java:99)
+at com.vn.test.AdminTest.rediectSummarize(AdminTest.java:130)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rediectSummarize -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.AdminTest@eb21112]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-03-10T16:25:31 ICT" finished-at="2021-03-10T16:25:31 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.AdminTest@eb21112]" name="beforeMethod" is-config="true" duration-ms="30287" started-at="2021-03-10T16:25:31 ICT" finished-at="2021-03-10T16:26:02 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="rediectUser()[pri:1, instance:com.vn.test.AdminTest@eb21112]" name="rediectUser" duration-ms="60" started-at="2021-03-10T16:26:02 ICT" description="Empty Username" finished-at="2021-03-10T16:26:02 ICT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Lỗi: Không nhập mã vẫn hợp lệ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Lỗi: Không nhập mã vẫn hợp lệ
+at org.testng.Assert.fail(Assert.java:99)
+at com.vn.test.AdminTest.rediectUser(AdminTest.java:64)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rediectUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.AdminTest@eb21112]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-03-10T16:26:02 ICT" finished-at="2021-03-10T16:26:02 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.vn.test.AdminTest@eb21112]" name="afterTest" is-config="true" duration-ms="514" started-at="2021-03-10T16:26:02 ICT" finished-at="2021-03-10T16:26:02 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.vn.test.AdminTest -->
+      <class name="com.vn.test.UserTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.vn.test.UserTest@1786f9d5]" name="beforeTest" is-config="true" duration-ms="9899" started-at="2021-03-10T16:23:29 ICT" finished-at="2021-03-10T16:23:39 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.UserTest@1786f9d5]" name="beforeMethod" is-config="true" duration-ms="119" started-at="2021-03-10T16:23:39 ICT" finished-at="2021-03-10T16:23:39 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="User01()[pri:1, instance:com.vn.test.UserTest@1786f9d5]" name="User01" duration-ms="1383" started-at="2021-03-10T16:23:39 ICT" description="Empty Username" finished-at="2021-03-10T16:23:40 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User01 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.UserTest@1786f9d5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-03-10T16:23:40 ICT" finished-at="2021-03-10T16:23:40 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.UserTest@1786f9d5]" name="beforeMethod" is-config="true" duration-ms="239" started-at="2021-03-10T16:23:40 ICT" finished-at="2021-03-10T16:23:41 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="User02()[pri:1, instance:com.vn.test.UserTest@1786f9d5]" name="User02" duration-ms="1473" started-at="2021-03-10T16:23:41 ICT" description="Check trung username" finished-at="2021-03-10T16:23:42 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User02 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.UserTest@1786f9d5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-03-10T16:23:42 ICT" finished-at="2021-03-10T16:23:42 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.UserTest@1786f9d5]" name="beforeMethod" is-config="true" duration-ms="395" started-at="2021-03-10T16:23:42 ICT" finished-at="2021-03-10T16:23:43 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="User03()[pri:1, instance:com.vn.test.UserTest@1786f9d5]" name="User03" duration-ms="1274" started-at="2021-03-10T16:23:43 ICT" description="Check Title" finished-at="2021-03-10T16:23:44 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User03 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.UserTest@1786f9d5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-03-10T16:23:44 ICT" finished-at="2021-03-10T16:23:44 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.UserTest@1786f9d5]" name="beforeMethod" is-config="true" duration-ms="172" started-at="2021-03-10T16:23:44 ICT" finished-at="2021-03-10T16:23:44 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="User04()[pri:1, instance:com.vn.test.UserTest@1786f9d5]" name="User04" duration-ms="1259" started-at="2021-03-10T16:23:44 ICT" description="Empty Password" finished-at="2021-03-10T16:23:45 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User04 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.UserTest@1786f9d5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-03-10T16:23:45 ICT" finished-at="2021-03-10T16:23:45 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.UserTest@1786f9d5]" name="beforeMethod" is-config="true" duration-ms="175" started-at="2021-03-10T16:23:45 ICT" finished-at="2021-03-10T16:23:45 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="User05()[pri:1, instance:com.vn.test.UserTest@1786f9d5]" name="User05" duration-ms="1318" started-at="2021-03-10T16:23:45 ICT" description="Empty Fullname" finished-at="2021-03-10T16:23:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User05 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.UserTest@1786f9d5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-03-10T16:23:47 ICT" finished-at="2021-03-10T16:23:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.UserTest@1786f9d5]" name="beforeMethod" is-config="true" duration-ms="103" started-at="2021-03-10T16:23:47 ICT" finished-at="2021-03-10T16:23:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="rediectInsertUser()[pri:1, instance:com.vn.test.UserTest@1786f9d5]" name="rediectInsertUser" duration-ms="250" started-at="2021-03-10T16:23:47 ICT" description="Empty Username" finished-at="2021-03-10T16:23:47 ICT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [http://localhost:8888/user/insertUser?] but found [http://localhost:8888/user/insert]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [http://localhost:8888/user/insertUser?] but found [http://localhost:8888/user/insert]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.vn.test.UserTest.rediectInsertUser(UserTest.java:227)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rediectInsertUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.UserTest@1786f9d5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-03-10T16:23:47 ICT" finished-at="2021-03-10T16:23:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.UserTest@1786f9d5]" name="beforeMethod" is-config="true" duration-ms="114" started-at="2021-03-10T16:23:47 ICT" finished-at="2021-03-10T16:23:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="rediectListtUser()[pri:1, instance:com.vn.test.UserTest@1786f9d5]" name="rediectListtUser" duration-ms="243" started-at="2021-03-10T16:23:47 ICT" description="Empty Username" finished-at="2021-03-10T16:23:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rediectListtUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.UserTest@1786f9d5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-03-10T16:23:47 ICT" finished-at="2021-03-10T16:23:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.UserTest@1786f9d5]" name="beforeMethod" is-config="true" duration-ms="200" started-at="2021-03-10T16:23:47 ICT" finished-at="2021-03-10T16:23:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="User06()[pri:8, instance:com.vn.test.UserTest@1786f9d5]" name="User06" duration-ms="1523" started-at="2021-03-10T16:23:48 ICT" description="Nhập mã nhân viên với chữ hoa không dấu và số" finished-at="2021-03-10T16:23:49 ICT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Lỗi : Không nhập mã hợp lệ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Lỗi : Không nhập mã hợp lệ
+at org.testng.Assert.fail(Assert.java:99)
+at com.vn.test.UserTest.User06(UserTest.java:144)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User06 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.UserTest@1786f9d5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-03-10T16:23:49 ICT" finished-at="2021-03-10T16:23:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.UserTest@1786f9d5]" name="beforeMethod" is-config="true" duration-ms="139" started-at="2021-03-10T16:23:49 ICT" finished-at="2021-03-10T16:23:49 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="User09()[pri:13, instance:com.vn.test.UserTest@1786f9d5]" name="User09" duration-ms="1632" started-at="2021-03-10T16:23:49 ICT" description="Username with 1 char" finished-at="2021-03-10T16:23:51 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User09 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.UserTest@1786f9d5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-03-10T16:23:51 ICT" finished-at="2021-03-10T16:23:51 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.UserTest@1786f9d5]" name="beforeMethod" is-config="true" duration-ms="121" started-at="2021-03-10T16:23:51 ICT" finished-at="2021-03-10T16:23:51 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="User10()[pri:14, instance:com.vn.test.UserTest@1786f9d5]" name="User10" duration-ms="1406" started-at="2021-03-10T16:23:51 ICT" description="Username with 2 char" finished-at="2021-03-10T16:23:53 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User10 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.UserTest@1786f9d5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-03-10T16:23:53 ICT" finished-at="2021-03-10T16:23:53 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.UserTest@1786f9d5]" name="beforeMethod" is-config="true" duration-ms="114" started-at="2021-03-10T16:23:53 ICT" finished-at="2021-03-10T16:23:53 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="User07()[pri:15, instance:com.vn.test.UserTest@1786f9d5]" name="User07" duration-ms="1410" started-at="2021-03-10T16:23:53 ICT" description="Check username have 9 length" finished-at="2021-03-10T16:23:54 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User07 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.UserTest@1786f9d5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-03-10T16:23:54 ICT" finished-at="2021-03-10T16:23:54 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.UserTest@1786f9d5]" name="beforeMethod" is-config="true" duration-ms="275" started-at="2021-03-10T16:23:54 ICT" finished-at="2021-03-10T16:23:54 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="User08()[pri:15, instance:com.vn.test.UserTest@1786f9d5]" name="User08" duration-ms="1433" started-at="2021-03-10T16:23:54 ICT" description="Check fullname with number" finished-at="2021-03-10T16:23:56 ICT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Lỗi : Không nhập mã hợp lệ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Lỗi : Không nhập mã hợp lệ
+at org.testng.Assert.fail(Assert.java:99)
+at com.vn.test.UserTest.User08(UserTest.java:170)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User08 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.UserTest@1786f9d5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-03-10T16:23:56 ICT" finished-at="2021-03-10T16:23:56 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.vn.test.UserTest@1786f9d5]" name="afterTest" is-config="true" duration-ms="174" started-at="2021-03-10T16:26:03 ICT" finished-at="2021-03-10T16:26:03 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.vn.test.UserTest -->
+      <class name="com.vn.test.EmployeeTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="beforeTest" is-config="true" duration-ms="9861" started-at="2021-03-10T16:23:14 ICT" finished-at="2021-03-10T16:23:24 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="beforeMethod" is-config="true" duration-ms="801" started-at="2021-03-10T16:23:56 ICT" finished-at="2021-03-10T16:23:57 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Staff11()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="Staff11" duration-ms="1534" started-at="2021-03-10T16:23:57 ICT" description="Empty Fullname" finished-at="2021-03-10T16:23:58 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Staff11 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-03-10T16:23:58 ICT" finished-at="2021-03-10T16:23:58 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="beforeMethod" is-config="true" duration-ms="395" started-at="2021-03-10T16:23:58 ICT" finished-at="2021-03-10T16:23:58 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Staff12()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="Staff12" duration-ms="1502" started-at="2021-03-10T16:23:58 ICT" description="Empty Image" finished-at="2021-03-10T16:24:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Staff12 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-03-10T16:24:00 ICT" finished-at="2021-03-10T16:24:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="beforeMethod" is-config="true" duration-ms="191" started-at="2021-03-10T16:24:00 ICT" finished-at="2021-03-10T16:24:00 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Staff13()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="Staff13" duration-ms="1466" started-at="2021-03-10T16:24:00 ICT" description="Empty E" finished-at="2021-03-10T16:24:02 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Staff13 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-03-10T16:24:02 ICT" finished-at="2021-03-10T16:24:02 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="beforeMethod" is-config="true" duration-ms="167" started-at="2021-03-10T16:24:02 ICT" finished-at="2021-03-10T16:24:02 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Staff14()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="Staff14" duration-ms="1324" started-at="2021-03-10T16:24:02 ICT" description="Empty note" finished-at="2021-03-10T16:24:03 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Staff14 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-03-10T16:24:03 ICT" finished-at="2021-03-10T16:24:03 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="beforeMethod" is-config="true" duration-ms="231" started-at="2021-03-10T16:24:03 ICT" finished-at="2021-03-10T16:24:03 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Staff15()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="Staff15" duration-ms="1368" started-at="2021-03-10T16:24:03 ICT" description="Empty phone" finished-at="2021-03-10T16:24:05 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Staff15 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-03-10T16:24:05 ICT" finished-at="2021-03-10T16:24:05 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="beforeMethod" is-config="true" duration-ms="183" started-at="2021-03-10T16:24:05 ICT" finished-at="2021-03-10T16:24:05 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="Staff16()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="Staff16" duration-ms="1587" started-at="2021-03-10T16:24:05 ICT" description="Empty phone" finished-at="2021-03-10T16:24:07 ICT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Lỗi: Khong nhap ma hop le]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Lỗi: Khong nhap ma hop le
+at org.testng.Assert.fail(Assert.java:99)
+at com.vn.test.EmployeeTest.Staff16(EmployeeTest.java:132)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Staff16 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-03-10T16:24:07 ICT" finished-at="2021-03-10T16:24:07 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="beforeMethod" is-config="true" duration-ms="603" started-at="2021-03-10T16:24:07 ICT" finished-at="2021-03-10T16:24:07 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="Staff17()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="Staff17" duration-ms="1842" started-at="2021-03-10T16:24:07 ICT" description="Empty phone" finished-at="2021-03-10T16:24:09 ICT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Lỗi: Khong nhap ma hop le]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Lỗi: Khong nhap ma hop le
+at org.testng.Assert.fail(Assert.java:99)
+at com.vn.test.EmployeeTest.Staff17(EmployeeTest.java:146)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Staff17 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="afterMethod" is-config="true" duration-ms="3" started-at="2021-03-10T16:24:09 ICT" finished-at="2021-03-10T16:24:09 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="beforeMethod" is-config="true" duration-ms="258" started-at="2021-03-10T16:24:09 ICT" finished-at="2021-03-10T16:24:09 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="Staff19()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="Staff19" duration-ms="1707" started-at="2021-03-10T16:24:09 ICT" description="Empty phone" finished-at="2021-03-10T16:24:11 ICT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Lỗi: Khong nhap ma hop le]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Lỗi: Khong nhap ma hop le
+at org.testng.Assert.fail(Assert.java:99)
+at com.vn.test.EmployeeTest.Staff19(EmployeeTest.java:160)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Staff19 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-03-10T16:24:11 ICT" finished-at="2021-03-10T16:24:11 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="beforeMethod" is-config="true" duration-ms="201" started-at="2021-03-10T16:24:11 ICT" finished-at="2021-03-10T16:24:11 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="Staff20()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="Staff20" duration-ms="1584" started-at="2021-03-10T16:24:11 ICT" description="Empty phone" finished-at="2021-03-10T16:24:13 ICT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Lỗi: Khong nhap ma hop le]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Lỗi: Khong nhap ma hop le
+at org.testng.Assert.fail(Assert.java:99)
+at com.vn.test.EmployeeTest.Staff20(EmployeeTest.java:174)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Staff20 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-03-10T16:24:13 ICT" finished-at="2021-03-10T16:24:13 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="beforeMethod" is-config="true" duration-ms="148" started-at="2021-03-10T16:24:13 ICT" finished-at="2021-03-10T16:24:13 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="Staff21()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="Staff21" duration-ms="1464" started-at="2021-03-10T16:24:13 ICT" description="Empty phone" finished-at="2021-03-10T16:24:14 ICT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Lỗi: Khong nhap ma hop le]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Lỗi: Khong nhap ma hop le
+at org.testng.Assert.fail(Assert.java:99)
+at com.vn.test.EmployeeTest.Staff21(EmployeeTest.java:188)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Staff21 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-03-10T16:24:14 ICT" finished-at="2021-03-10T16:24:14 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="beforeMethod" is-config="true" duration-ms="380" started-at="2021-03-10T16:24:14 ICT" finished-at="2021-03-10T16:24:15 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="Staff22()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="Staff22" duration-ms="1754" started-at="2021-03-10T16:24:15 ICT" description="Empty phone" finished-at="2021-03-10T16:24:16 ICT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Lỗi: Khong nhap ma hop le]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Lỗi: Khong nhap ma hop le
+at org.testng.Assert.fail(Assert.java:99)
+at com.vn.test.EmployeeTest.Staff22(EmployeeTest.java:202)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Staff22 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-03-10T16:24:16 ICT" finished-at="2021-03-10T16:24:16 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="beforeMethod" is-config="true" duration-ms="314" started-at="2021-03-10T16:24:16 ICT" finished-at="2021-03-10T16:24:17 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="Staff23()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="Staff23" duration-ms="1656" started-at="2021-03-10T16:24:17 ICT" description="Empty phone" finished-at="2021-03-10T16:24:18 ICT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Lỗi: Khong nhap ma hop le]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Lỗi: Khong nhap ma hop le
+at org.testng.Assert.fail(Assert.java:99)
+at com.vn.test.EmployeeTest.Staff23(EmployeeTest.java:216)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Staff23 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-03-10T16:24:18 ICT" finished-at="2021-03-10T16:24:18 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="beforeMethod" is-config="true" duration-ms="289" started-at="2021-03-10T16:24:18 ICT" finished-at="2021-03-10T16:24:19 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="Staff24()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="Staff24" duration-ms="1853" started-at="2021-03-10T16:24:19 ICT" description="Empty phone" finished-at="2021-03-10T16:24:21 ICT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Lỗi: Khong nhap ma hop le]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Lỗi: Khong nhap ma hop le
+at org.testng.Assert.fail(Assert.java:99)
+at com.vn.test.EmployeeTest.Staff24(EmployeeTest.java:230)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Staff24 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-03-10T16:24:21 ICT" finished-at="2021-03-10T16:24:21 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="beforeMethod" is-config="true" duration-ms="141" started-at="2021-03-10T16:24:21 ICT" finished-at="2021-03-10T16:24:21 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="Staff25()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="Staff25" duration-ms="1486" started-at="2021-03-10T16:24:21 ICT" description="Empty phone" finished-at="2021-03-10T16:24:22 ICT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Lỗi: Khong nhap ma hop le]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Lỗi: Khong nhap ma hop le
+at org.testng.Assert.fail(Assert.java:99)
+at com.vn.test.EmployeeTest.Staff25(EmployeeTest.java:244)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Staff25 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-03-10T16:24:22 ICT" finished-at="2021-03-10T16:24:22 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="beforeMethod" is-config="true" duration-ms="311" started-at="2021-03-10T16:24:22 ICT" finished-at="2021-03-10T16:24:23 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="Staff26()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="Staff26" duration-ms="1606" started-at="2021-03-10T16:24:23 ICT" description="Empty phone" finished-at="2021-03-10T16:24:24 ICT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Lỗi: Khong nhap ma hop le]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Lỗi: Khong nhap ma hop le
+at org.testng.Assert.fail(Assert.java:99)
+at com.vn.test.EmployeeTest.Staff26(EmployeeTest.java:258)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Staff26 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-03-10T16:24:24 ICT" finished-at="2021-03-10T16:24:24 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="beforeMethod" is-config="true" duration-ms="170" started-at="2021-03-10T16:24:24 ICT" finished-at="2021-03-10T16:24:24 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="rediectInsertStaff()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="rediectInsertStaff" duration-ms="392" started-at="2021-03-10T16:24:24 ICT" description="Empty Username" finished-at="2021-03-10T16:24:25 ICT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [http://localhost:8888/staff/insert?] but found [http://localhost:8888/staff/insert]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [http://localhost:8888/staff/insert?] but found [http://localhost:8888/staff/insert]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.vn.test.EmployeeTest.rediectInsertStaff(EmployeeTest.java:290)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rediectInsertStaff -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-03-10T16:24:25 ICT" finished-at="2021-03-10T16:24:25 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="beforeMethod" is-config="true" duration-ms="173" started-at="2021-03-10T16:24:25 ICT" finished-at="2021-03-10T16:24:25 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="rediectListStaff()[pri:1, instance:com.vn.test.EmployeeTest@704d6e83]" name="rediectListStaff" duration-ms="656" started-at="2021-03-10T16:24:25 ICT" description="Empty Username" finished-at="2021-03-10T16:24:26 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rediectListStaff -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-03-10T16:24:26 ICT" finished-at="2021-03-10T16:24:26 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.vn.test.EmployeeTest@704d6e83]" name="afterTest" is-config="true" duration-ms="249" started-at="2021-03-10T16:26:02 ICT" finished-at="2021-03-10T16:26:02 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.vn.test.EmployeeTest -->
+      <class name="com.vn.test.LoginTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.vn.test.LoginTest@43a0cee9]" name="beforeTest" is-config="true" duration-ms="5440" started-at="2021-03-10T16:23:24 ICT" finished-at="2021-03-10T16:23:29 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.LoginTest@43a0cee9]" name="beforeMethod" is-config="true" duration-ms="1048" started-at="2021-03-10T16:24:26 ICT" finished-at="2021-03-10T16:24:27 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="emptyPassword()[pri:1, instance:com.vn.test.LoginTest@43a0cee9]" name="emptyPassword" duration-ms="386" started-at="2021-03-10T16:24:27 ICT" description="Empty Username" finished-at="2021-03-10T16:24:27 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyPassword -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.LoginTest@43a0cee9]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-03-10T16:24:27 ICT" finished-at="2021-03-10T16:24:27 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.LoginTest@43a0cee9]" name="beforeMethod" is-config="true" duration-ms="78" started-at="2021-03-10T16:24:27 ICT" finished-at="2021-03-10T16:24:27 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="emptyUsername()[pri:1, instance:com.vn.test.LoginTest@43a0cee9]" name="emptyUsername" duration-ms="210" started-at="2021-03-10T16:24:27 ICT" description="Empty Username" finished-at="2021-03-10T16:24:27 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUsername -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.LoginTest@43a0cee9]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-03-10T16:24:27 ICT" finished-at="2021-03-10T16:24:27 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.vn.test.LoginTest@43a0cee9]" name="beforeMethod" is-config="true" duration-ms="110" started-at="2021-03-10T16:24:27 ICT" finished-at="2021-03-10T16:24:27 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="rediectAdmin()[pri:1, instance:com.vn.test.LoginTest@43a0cee9]" name="rediectAdmin" duration-ms="984" started-at="2021-03-10T16:24:27 ICT" description="Empty Username" finished-at="2021-03-10T16:24:28 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rediectAdmin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.vn.test.LoginTest@43a0cee9]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-03-10T16:24:28 ICT" finished-at="2021-03-10T16:24:28 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.vn.test.LoginTest@43a0cee9]" name="afterTest" is-config="true" duration-ms="234" started-at="2021-03-10T16:26:02 ICT" finished-at="2021-03-10T16:26:03 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.vn.test.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
